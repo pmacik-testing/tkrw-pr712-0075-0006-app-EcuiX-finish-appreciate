@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-npfc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0006-tenant/tkrw-pr712-0075-0006-app/devfile-sample-npfc@sha256:353e76c5bc8bddce4d00f3eecba510e7c16aa6b38f6dae6af348f8c624998143
         name: my-nodejs
         ports:
         - containerPort: 3001
